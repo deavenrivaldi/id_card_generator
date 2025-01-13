@@ -2,7 +2,7 @@ import base64
 import os
 from io import BytesIO
 from flask import Flask, request, render_template, redirect, url_for, jsonify
-from idCard_generator2 import generate_id_card  # Import your function
+from idCard_generator import generate_id_card  # Import your function
 
 
 
